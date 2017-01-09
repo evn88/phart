@@ -1,0 +1,41 @@
+<br><h1 class="text">Этот тест позволяет закрепить полученные знания</h1></br>
+<form ng-controller="TestListCtrl">
+    <div ng-repeat="item in questions">
+	<div class="panel panel-default">
+	    <div class="panel-heading" ng-bind-html="item.quest"></div>
+	    <div class="panel-body">
+		<div class="radio">
+		    <label>
+			<input type="radio" name="optionsRadios{{item.n}}" ng-model="answer_ch" value="0" ng-disabled="answer_ch" ng-click="score((answer_ch === item.true_answer), (answer_ch && answer_ch !== item.true_answer))">
+			{{item.answer[0]}}
+		    </label>
+		</div>
+		<div class="radio">
+		    <label>
+			<input type="radio" name="optionsRadios{{item.n}}" ng-model="answer_ch" value="1" ng-disabled="answer_ch" ng-click="score((answer_ch === item.true_answer), (answer_ch && answer_ch !== item.true_answer))">
+			{{item.answer[1]}}
+		    </label>
+		</div>
+		<div class="radio">
+		    <label>
+			<input type="radio" name="optionsRadios{{item.n}}" ng-model="answer_ch" value="2" ng-disabled="answer_ch" ng-click="score((answer_ch === item.true_answer), (answer_ch && answer_ch !== item.true_answer))">
+			{{item.answer[2]}}
+		    </label>
+		</div>
+
+		<p style="color:green" ng-if="answer_ch === item.true_answer">Правильный ответ!</p>
+		<p style="color:red" ng-if="answer_ch && answer_ch !== item.true_answer">Ответ не верный!</p>
+	    </div>
+	</div>
+    </div>
+    <div class="panel-heading"><h1 class="text">Статистика ответов</h1></div>
+    <div class="panel-body well">
+	<div class="col-lg-6 alert-success">
+	    <h2>Правильных ответов: {{count_true_answer}}</h2>
+	</div>
+	<div class="col-lg-6 alert-danger">
+	    <h2>Неправильных ответов: {{count_false_answer}}</h2>
+	</div>
+    </div>
+
+</form>

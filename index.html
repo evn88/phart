@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+	<meta charset="utf-8">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<title>ФотоАрт</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" href="public/css/bootstrap.min.css">
+	<link rel="stylesheet" href="public/css/jquery.fancybox.css">
+	<link rel="stylesheet" href="public/css/main.css">
+
+
+    </head>
+
+    <body ng-app="app">
+	<div class="container">
+	    <center>
+		<a href="#/">
+		    <img src="public/img/logo.jpg" width="500" hight="500">
+		</a>
+	    </center>
+	    <div class="text">
+		<h1 class="title">Фотостудия Анны Вершковой</h1>
+
+		<ul class="navigate">
+		    <li><a href="#/">Главная</a></li>
+		    <li><a href="#/about">О студии</a></li>
+		    <li><a href="#/photographers">Фотографы</a></li>
+		    <li><a href="#/kurs">Курсы</a></li>
+		    <li><a href="#/kontact">Контакты</a></li>
+		</ul>
+	    </div>
+
+	    <div ng-view style="padding-top: 50px;"></div>
+
+	    <footer class="st row">© STUDIO PHART</footer>
+
+	    <script src="public/js/library/jquery-2.2.4.min.js" type="text/javascript"></script>
+	    <script src="public/js/library/angular.min.js" type="text/javascript"></script>
+	    <script src="public/js/library/angular-route.min.js" type="text/javascript"></script>
+	    <script src="public/js/library/angular-sanitize.min.js" type="text/javascript"></script>
+	    <script type="text/javascript" src="public/js/library/jquery.cross-slide.js"></script>
+	    <script type="text/javascript" src="public/js/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="public/js/library/jquery.fancybox.js"></script>
+	    <script type="text/javascript" src="public/js/app.js"></script>
+	    <script src="public/js/controller.js" type="text/javascript"></script>
+    </body>
+
+</html>

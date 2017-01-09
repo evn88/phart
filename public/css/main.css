@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2d2b2b;
+    color: white;
+   
+}
+
+.title {
+    color: white;
+    font-size: 40pt;
+    font-weight: normal;
+    text-align: center;
+}
+
+div.rotator {
+    height: 600px;
+}
+
+div.rotator img {
+    height: 600px;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    margin-bottom: 50px;
+    margin-top: 30px
+}
+
+.navigate {
+    display: inline-block;
+    padding-top: 45px;
+    margin: 0;
+}
+
+.navigate li {
+    display: inline;
+    width: 100%;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.navigate li:first-child {
+    margin-left: -15px;
+}
+
+.navigate a {
+    width: 100%;
+    font: 20px Arial, sans serif;
+    color: #FFF;
+    text-transform: uppercase;
+    Text-decoration: none;
+}
+
+.navigate a:hover {
+    color: #36d2f8;
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+.text {
+    text-align: center;
+    font: 24px Arial, sans serif;
+    Text-decoration: none;
+    padding-top: 7px;
+    margin: 0;
+}
+
+.text1 {
+    width: 560px;
+    float: right;
+    text-align: left;
+    padding-left: 40px;
+}
+
+p.txt {
+    font: italic 22px/22px Arial, sans serif;
+    color: white;
+    margin: 0;
+}
+
+.st {
+    font: 13px Arial, sans serif;
+    color: #30dbe5;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.brd {
+    text-align: center;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-top: 0;
+    height: 90px;
+    right: 0;
+    left: 0;
+}
+
+.vt {
+    margin-top: 20px;
+}
+
+.img {
+    display: inline-block;
+    width: 200px;
+    float: left;
+}
+
+.ros {
+    display: inline-block;
+    float: right;
+    padding-top: 20px; 
+}
+.wrap {
+        padding-top: 60px;
+		height: 260px;
+        width: 800px;
+        text-align: center;
+		display: block;
+		margin: auto;
+    }
+
+    label{
+	color: black;
+    }
+    .knop a {
+         font: 24px Arial;
+         text-decoration: none;
+         color: #ffffff;
+         border: 4px solid white; /* Параметры границы */
+         padding: 10px; /* Поля вокруг текста */
+         border-radius: 50px;
+         }
+	.knop a:hover {
+	     background: #201f20; 
+	     box-shadow: inset 0px 0px 28px black;
+	}
+  .call {
+	   margin: auto;
+	   padding: auto;
+	   font: 21px Arial;
+       text-align: center;
+       color: white;
+	}
+    .test {
+        text-align: center;
+    }
+    .p1 {
+text-indent: 1.5em;
+margin-bottom: 7px;
+}
+.text11 {
+font: 22px Arial;
+text-align: justify;
+color: #F5F5F5;
+width: 100%;
+margin: auto ;
+   }
+.txt11 {
+margin-top: 30px;
+
+text-align: center;
+font: 24px Arial;
+       color: white;
+}
+.txt1 {
+margin-bottom: 30px;
+text-align: center;
+font: 22px Arial;
+       color: white;
+}
+.img1 {
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: center;
+}
+    
